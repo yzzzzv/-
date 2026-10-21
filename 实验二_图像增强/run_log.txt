@@ -1,0 +1,21 @@
+Python: 3.12.14
+OpenCV: 4.11.0
+NumPy: 2.5.4
+scikit-image: 0.25.2
+Matplotlib: 3.10.1
+Input shape: (512, 512, 3)
+BGR[100,100]: [114, 102, 244]
+RGB[100,100]: [244, 102, 114]
+Gray[100,100]: 146
+椒盐噪声 | 未滤波: MSE=9283.9634, PSNR=8.4535 dB, SSIM=0.040788, bias=-0.9125
+椒盐噪声 | 均值滤波: MSE=1578.3415, PSNR=16.1488 dB, SSIM=0.257884, bias=-0.8974
+椒盐噪声 | 中值滤波: MSE=146.1974, PSNR=26.4814 dB, SSIM=0.920928, bias=-0.1574
+椒盐噪声 | 高斯滤波: MSE=1800.7245, PSNR=15.5763 dB, SSIM=0.179493, bias=-0.8961
+高斯噪声 | 未滤波: MSE=3190.8759, PSNR=13.0917 dB, SSIM=0.189072, bias=37.9417
+高斯噪声 | 均值滤波: MSE=2040.5505, PSNR=15.0333 dB, SSIM=0.579739, bias=37.9540
+高斯噪声 | 中值滤波: MSE=2078.8307, PSNR=14.9526 dB, SSIM=0.543224, bias=39.6368
+高斯噪声 | 高斯滤波: MSE=2020.2414, PSNR=15.0768 dB, SSIM=0.500481, bias=37.9550
+Manual median max absolute error: 0
+Manual median differing channel values: 0
+Manual median time (seconds): 6.2367
+Experiment completed. Manual/OpenCV equality: PASS

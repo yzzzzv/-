@@ -1,0 +1,23 @@
+{
+  "reference_filename": "实验二参考文档.pdf",
+  "reference_sha256": "8bcff63e2dbe3cccd1b7e2d3b0bf2d8f15ac4272e1e6e7802e936eeef29faf7b",
+  "source_page": 2,
+  "embedded_image_size": [
+    1920,
+    1440
+  ],
+  "crop_box_left_top_right_bottom": [
+    432,
+    176,
+    1537,
+    1281
+  ],
+  "resize": [
+    512,
+    512
+  ],
+  "resampling": "Pillow Lanczos",
+  "input_sha256": "a1eb3cc166439ee3e1f278f664ebfe4960ef3ba88f93e4aa5c9def0c5bcc64f0",
+  "figure_provenance": "Python/OpenCV computation; Matplotlib PNG export",
+  "screenshot_provenance": "Real Windows Matplotlib Tk window displaying the computed filter comparison; captured using Pillow ImageGrab"
+}
