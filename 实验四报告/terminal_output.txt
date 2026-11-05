@@ -1,0 +1,50 @@
+Experiment 4 / offline real handwritten digits
+{
+  "dataset": "sklearn.datasets.load_digits (NOT MNIST)",
+  "num_samples": 1797,
+  "train_size": 1437,
+  "test_size": 360,
+  "image_original": "8x8",
+  "image_resized": "28x28",
+  "seed": 42,
+  "device": "cpu",
+  "epochs": 30,
+  "batch_size": 64,
+  "lr": 0.01,
+  "optimizer": "SGD",
+  "parameters": 101770,
+  "python": "3.13.5",
+  "torch": "2.10.0+cpu",
+  "sklearn": "1.8.0"
+}
+epoch:01, train_loss:2.2583, test_loss:2.2045, acc:0.3444
+epoch:02, train_loss:2.1667, test_loss:2.1160, acc:0.6528
+epoch:03, train_loss:2.0757, test_loss:2.0229, acc:0.7583
+epoch:04, train_loss:1.9806, test_loss:1.9253, acc:0.7528
+epoch:05, train_loss:1.8802, test_loss:1.8210, acc:0.7833
+epoch:06, train_loss:1.7732, test_loss:1.7109, acc:0.8028
+epoch:07, train_loss:1.6604, test_loss:1.5980, acc:0.8194
+epoch:08, train_loss:1.5459, test_loss:1.4829, acc:0.8306
+epoch:09, train_loss:1.4306, test_loss:1.3701, acc:0.8361
+epoch:10, train_loss:1.3189, test_loss:1.2630, acc:0.8194
+epoch:11, train_loss:1.2125, test_loss:1.1614, acc:0.8528
+epoch:12, train_loss:1.1145, test_loss:1.0694, acc:0.8667
+epoch:13, train_loss:1.0257, test_loss:0.9881, acc:0.8667
+epoch:14, train_loss:0.9464, test_loss:0.9133, acc:0.8694
+epoch:15, train_loss:0.8760, test_loss:0.8483, acc:0.8694
+epoch:16, train_loss:0.8137, test_loss:0.7911, acc:0.8722
+epoch:17, train_loss:0.7584, test_loss:0.7421, acc:0.8806
+epoch:18, train_loss:0.7100, test_loss:0.6960, acc:0.8778
+epoch:19, train_loss:0.6669, test_loss:0.6557, acc:0.8806
+epoch:20, train_loss:0.6284, test_loss:0.6209, acc:0.8861
+epoch:21, train_loss:0.5951, test_loss:0.5881, acc:0.8889
+epoch:22, train_loss:0.5642, test_loss:0.5611, acc:0.8917
+epoch:23, train_loss:0.5381, test_loss:0.5345, acc:0.8917
+epoch:24, train_loss:0.5118, test_loss:0.5118, acc:0.9000
+epoch:25, train_loss:0.4897, test_loss:0.4892, acc:0.9000
+epoch:26, train_loss:0.4696, test_loss:0.4699, acc:0.9056
+epoch:27, train_loss:0.4512, test_loss:0.4539, acc:0.9000
+epoch:28, train_loss:0.4345, test_loss:0.4367, acc:0.9083
+epoch:29, train_loss:0.4182, test_loss:0.4238, acc:0.9028
+epoch:30, train_loss:0.4045, test_loss:0.4081, acc:0.9111
+DONE: {"accuracy": 0.9111111111111111, "loss": 0.4081093516614702, "seconds": 1.22}
